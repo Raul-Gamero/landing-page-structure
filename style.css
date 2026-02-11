@@ -1,0 +1,144 @@
+/* ===== GLOBAL RESET ===== */
+/* Removes default browser spacing and makes layout easier to control */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Makes width/height calculations predictable */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== BODY STYLE ===== */
+body {
+    background-color: #f4f6f9; /* Light modern background */
+    color: #333; /* Dark gray text */
+    line-height: 1.6;
+}
+
+/* ===== NAVBAR ===== */
+header {
+    background-color: #0d1b2a; /* Professional dark blue */
+    padding: 15px 0;
+}
+
+nav {
+    width: 90%;
+    margin: auto;
+    display: flex; /* Places logo and menu in a row */
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none; /* Removes bullet points */
+    display: flex; /* Places menu items horizontally */
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none; /* Removes underline */
+    color: white;
+    transition: 0.3s; /* Smooth hover effect */
+}
+
+nav ul li a:hover {
+    color: #00b4d8; /* Light blue on hover */
+}
+
+/* ===== HERO SECTION ===== */
+.hero {
+    height: 80vh; /* 80% of viewport height */
+    background: url("https://images.unsplash.com/photo-1492724441997-5dc865305da7") 
+                no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* ===== GENERAL SECTION STYLE ===== */
+.section {
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    color: #0d1b2a;
+}
+
+/* ===== SERVICE CARDS ===== */
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: white;
+    width: 30%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* ===== CONTACT FORM ===== */
+form {
+    width: 60%;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #0d1b2a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00b4d8;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #0d1b2a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
