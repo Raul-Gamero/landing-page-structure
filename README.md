@@ -1,2 +1,14 @@
-# landing-page-structure
-This is an example or how could be structured a website in different pages l(Home, About, Services, Contact, etc)
+# Simple Multi-Page Website — README
+
+This repository is a small static website made of multiple HTML pages and one CSS file. The goal of this README is to explain the project structure, teach the basic HTML/CSS concepts used, and point you to where to edit or extend the site.
+
+Project contents
+----------------
+- `index.html` — Home / landing page.
+- `about.html` — About page with project or author info.
+- `services.html` — Services or features list.
+- `contact.html` — Contact form or contact details.
+- `style.css` — Central stylesheet used by the pages.
+- `README.md` — This file.
+
+
